@@ -14,13 +14,25 @@ img {
     justify-content: center;
     align-items: center;
 }
-input[type="text"]
+input
 {
     outline: none;
     background-color: transparent;
     border: none;
-    border-bottom: 3px solid #979797;
-    width:20vw;
+    width:25vw;
+    height: 3vh;
+    font-family: "Fredoka One", cursive;    
+    font-size: 1.5vw;
+}
+button {
+    border: none;
+    background-color: #307FE2;
+    color: #fff;
+    font-family: "Fredoka One", cursive;    
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 10vw;
 }
 .main-container {
     width:100%;
@@ -30,7 +42,7 @@ input[type="text"]
 .left {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 70vw;
     background-color: #EFF8FF;
@@ -47,10 +59,11 @@ input[type="text"]
     height:auto;
 }
 .title-box-text {
+    margin-left: 5vw;
     margin-right: 1vw;
     color:#307FE2;
     font-family: "Fredoka One", cursive;    
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 .title-box-line {
     background-color: #307FE2;
@@ -67,15 +80,40 @@ input[type="text"]
     width:50vw;
     height:15vh;
 }
+.connect-with {
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    font-family: "Fredoka One", cursive;
+    font-size: 1.5vw;  
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color: #fff;
+    border-radius: 5vw;
+}
+
 .input-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width:50%;
-    height:45%;
+    width:36%;
+    height:50%;
 }
 .input-box-text{
     font-family: "Fredoka One", cursive;    
     font-size: 2vw;
     color: #307FE2;
+}
+.input-box-write-line {
+    width: 100%;
+    height: 1vh;
+    border-radius:none;
+    background-color: #307FE2;
+}
+
+#google {
+    width: 2vw;
+    height: auto;
+    margin-right: 2vw;
 }
