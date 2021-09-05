@@ -56,8 +56,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
+.signin-with-google-text:hover {
+  height: 5vh;
+  transition: 0.5s;
+  background-color: rgb(48, 127, 226);
+  color: white;
+}
 .signin-with-google-text {
   width: 17.3vw;
   height: 4.5vh;
@@ -112,6 +119,7 @@ body {
 .forget-password-div {
   display: flex;
   justify-content: flex-end;
+  font-weight: bold;
 }
 
 /*  Login div  */
@@ -135,6 +143,8 @@ form .txt_field {
   border: none;
   background: none;
   outline: none;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.2vw;
 }
 .txt_field label {
   position: absolute;
