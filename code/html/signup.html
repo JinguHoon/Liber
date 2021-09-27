@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liber</title>
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="/code/css/signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="/img/icon.svg" type="image/icon type">
@@ -26,37 +25,27 @@
                     <span>Signup for google</span>
             </div> -->
             <div class="input-box">
-                <div>
+                <div class="input-box-content">
                     <div class="input-box-text">ID</div>
                     <div class="input-box-write">
-                        <input type="text">
-                        <div class="input-box-write-line"></div>
+                        <input type="text" name="id">
                     </div>
                 </div>
-                <div>
+                <div class="input-box-content">
                     <div class="input-box-text">Email</div>
                     <div class="input-box-write">
-                        <input type="text">
-                        <div class="input-box-write-line"></div>
+                        <input type="text" name="email">
                     </div>
                 </div>
-                <div>
+                <div class="input-box-content">
                     <div class="input-box-text">Password</div>
                     <div class="input-box-write">
-                        <input type="password">
-                        <div class="input-box-write-line"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="input-box-text">Check Password</div>
-                    <div class="input-box-write">
-                        <input type="password">
-                        <div class="input-box-write-line"></div>
+                        <input type="password" name="password">
                     </div>
                 </div>
             </div>
             <div class="register-box">
-                <button>Register</button>   
+                <button onclick="start();">Register</button>   
             </div>
         </div>
         <div class="right">
@@ -65,6 +54,6 @@
             </div>
         </div>
     </div>
-    <script src="signup.js"></script>
+    <script src="/code/js/signup.js"></script>
 </body>
 </html>
