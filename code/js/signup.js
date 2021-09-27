@@ -1,5 +1,6 @@
-const animate = () => {
-    if(document.getElementsByTagName('input').onclick == true) {
-        document.getElementsByTagName('input').style.borderBottom = "3px solid #307FE2";
-    }
+const start = () => {
+    let userId = document.getElementsByName("id")[0].value;
+    let userEm = document.getElementsByName("email")[0].value;
+    let userPw = document.getElementsByName("password")[0].value;
+    console.log(userId, userEm, userPw);
 }
