@@ -155,7 +155,7 @@ form .txt_field {
   left: 0px;
   color: #adadad;
   transform: translateY(-70%);
-  font-size: 30px;
+  font-size: 3.3vh;
   pointer-events: none;
   transition: 0.5s;
   font-family: "Fredoka One", cursive;
@@ -209,6 +209,7 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 16px;
   color: #666666;
+  padding-top: 00px;
 }
 .signup_link a {
   color: rgb(48, 127, 226);
@@ -235,6 +236,7 @@ input[type="submit"]:hover {
   justify-content: center;
   font-family: "Fredoka One", cursive;
   transition: 0.5s;
+  margin-top: 40px;
 }
 
 .loginBtn:hover {
