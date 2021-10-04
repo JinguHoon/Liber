@@ -1,0 +1,81 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  height: 15%;
+  width: 100%;
+  background-color: white;
+}
+
+.main {
+  height: 85%;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 80px 80px 0px 0px;
+}
+
+.textDiv {
+  width: fit-content;
+  height: fit-content;
+  padding-left: 70px;
+  padding-top: 40px;
+}
+.textDiv > a {
+  color: rgb(48, 127, 226);
+  font-size: 50px;
+  font-family: "Fredoka One", cursive;
+  text-shadow: black;
+}
+
+.member-wrap {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.designer-wrap {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.developer-wrap {
+  width: 30%;
+  height: 100%;
+  display: flex;9
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 270px;
+  height: 15%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titie-text {
+  font-size: 35px;
+  font-family: "Fredoka One", cursive;
+  color: rgb(117, 167, 229);
+  margin-right: 20px;
+}
+
+.member {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
