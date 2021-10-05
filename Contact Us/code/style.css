@@ -4,12 +4,46 @@ body {
   height: 100%;
 }
 
+/* -------- top ------- */
 .top {
   height: 15%;
   width: 100%;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.logodiv {
+  width: 300px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.menudiv {
+  width: 1000px;
+  height: 100px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menubtn {
+  width: fit-content;
+  height: 100px;
+  font-family: "Fredoka One", cursive;
+  color: gray;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.developer {
+  color: rgb(48, 127, 226);
+}
+
+/* -------- main --------- */
 .main {
   height: 85%;
   width: 100%;
@@ -28,6 +62,12 @@ body {
   font-size: 50px;
   font-family: "Fredoka One", cursive;
   text-shadow: black;
+}
+
+#demo {
+  color: rgb(48, 127, 226);
+  text-shadow: #9c9c9c 4px 4px 0px;
+  color: rgb(48, 127, 226);
 }
 
 .member-wrap-wrap {
