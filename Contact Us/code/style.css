@@ -19,6 +19,7 @@ body {
   width: 300px;
   height: 100px;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 .menudiv {
@@ -34,7 +35,7 @@ body {
   height: 100px;
   font-family: "Fredoka One", cursive;
   color: gray;
-  font-size: 35px;
+  font-size: 31px;
   display: flex;
   align-items: center;
 }
