@@ -2,6 +2,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow-y: hidden;
 }
 
 /* -------- top ------- */
@@ -58,17 +59,13 @@ body {
   padding-left: 70px;
   padding-top: 40px;
 }
-.textDiv > a {
+
+#text {
+  text-shadow: 5px 3px 7px rgba(117, 167, 229, 0.6);
   color: rgb(48, 127, 226);
   font-size: 50px;
   font-family: "Fredoka One", cursive;
   text-shadow: black;
-}
-
-#demo {
-  color: rgb(48, 127, 226);
-  text-shadow: #9c9c9c 4px 4px 0px;
-  color: rgb(48, 127, 226);
 }
 
 .member-wrap-wrap {
@@ -113,7 +110,7 @@ body {
 
 #memberimg {
   width: 150px;
-  height: 150px;
+  height: 170px;
   border-radius: 10%;
 }
 
@@ -168,4 +165,25 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+
+/* ---------- footer-------- */
+
+.infodiv {
+  width: 90%;
+  height: 60px;
+  margin-left: 80px;
+}
+
+.linewrap {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  width: 93%;
+  height: 5px;
+  background-color: rgb(117, 167, 229);
 }
