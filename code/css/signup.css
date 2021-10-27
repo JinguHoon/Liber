@@ -20,7 +20,6 @@ input
     border: none;
     border-bottom: 0.2vw solid #959595;
     background-color: transparent;
-    width:25vw;
     height: 3vh;
     font-family: "Fredoka One", cursive;    
     font-size: 1.5vw;
@@ -38,7 +37,7 @@ button {
     color: #fff;
     font-family: "Fredoka One", cursive;    
     font-size: 1.5vw;
-    width: 15vw;
+    width: 100%;
     height: 6vh;
     border-radius: 10vw;
 }
@@ -109,8 +108,9 @@ button {
     height:50%;
 }
 .input-box-content {
-    height: 12vh;
+    height: 12wvh;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: space-between;
 }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liber</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/icon.svg" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="left">
+                <div class="title-box">
+                    <div class="title-box-text">
+                        Register in
+                    </div>
+                    <div class="title-box-line"></div>
+                </div>
+                <form class="input-box" method="POST" action="/signup">
+                    <div class="input-box-content">
+                        <div class="input-box-text">ID</div>
+                        <div class="input-box-write">
+                            <input type="text" name="id" autocomplete="off"/>
+                        </div>
+                    </div>
+                    <div class="input-box-content">
+                        <div class="input-box-text">Email</div>
+                        <div class="input-box-write">
+                            <input type="text" name="email" autocomplete="off"/>
+                        </div>
+                    </div>
+                    <div class="input-box-content">
+                        <div class="input-box-text">Password</div>
+                        <div class="input-box-write">
+                            <input type="password" name="password" autocomplete="off"/>
+                        </div>
+                    </div>
+                    <div class="register-box">
+                        <button onclick="start();">Register</button>   
+                    </div>
+                </form>
+            </div> 
+            <div class="right">
+                <div class="liber-logo">
+                    <img src="img/liber_logo.svg" class="liber-logo-img">
+                </div>
+            </div>
+        </div>
+        <script src="js/signup.js"></script>
+    </body>
+</html>
